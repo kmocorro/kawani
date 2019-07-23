@@ -76,7 +76,9 @@ module.exports = () => {
                 });
 
                 parser.once('data', (data) => {
-                    console.log(moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A1, BR, ' + data.toString('utf8'));
+                    let toLog = moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A1, BR, ' + data.toString('utf8')
+                    console.log(toLog);
+                    logger.write(toLog)
                 });
 
             }, 2000);
@@ -96,7 +98,9 @@ module.exports = () => {
                 });
 
                 parser.once('data', (data) => {
-                    console.log(moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A2, BL, ' + data.toString('utf8'));
+                    let toLog= moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A2, BL, ' + data.toString('utf8');
+                    console.log(toLog);
+                    logger.write(toLog)
                 });
 
             }, 2000);
@@ -116,7 +120,9 @@ module.exports = () => {
                 });
 
                 parser.once('data', (data) => {
-                    console.log(moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A3, FL, ' + data.toString('utf8'));
+                    let toLog = moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A3, FL, ' + data.toString('utf8');
+                    console.log(toLog);
+                    logger.write(toLog)
                 });
 
             }, 2000);
@@ -136,7 +142,9 @@ module.exports = () => {
                 });
 
                 parser.once('data', (data) => {
-                    console.log(moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A4, FR, ' + data.toString('utf8'));
+                    let toLog = moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A4, FR, ' + data.toString('utf8');
+                    console.log(toLog);
+                    logger.write(toLog)
                 });
 
             }, 2000);
@@ -156,7 +164,9 @@ module.exports = () => {
                 });
 
                 parser.once('data', (data) => {
-                    console.log(moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A5, FR, ' + data.toString('utf8'));
+                    let toLog = moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A5, FR, ' + data.toString('utf8');
+                    console.log(toLog);
+                    logger.write(toLog)
                 });
 
             }, 2000);
@@ -176,7 +186,9 @@ module.exports = () => {
                 });
 
                 parser.once('data', (data) => {
-                    console.log(moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A6, BL, ' + data.toString('utf8'));
+                    let toLog = moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A6, BL, ' + data.toString('utf8');
+                    console.log(toLog);
+                    logger.write(toLog)
                 });
 
             }, 2000);
@@ -196,7 +208,9 @@ module.exports = () => {
                 });
 
                 parser.once('data', (data) => {
-                    console.log(moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A7, FL, ' + data.toString('utf8'));
+                    let toLog = moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A7, FL, ' + data.toString('utf8');
+                    console.log(toLog);
+                    logger.write(toLog)
                 });
 
             }, 2000);
@@ -216,7 +230,9 @@ module.exports = () => {
                 });
 
                 parser.once('data', (data) => {
-                    console.log(moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A8, BR, ' + data.toString('utf8'));
+                    let toLog = moment(new Date()).format('YYYY-MM-DD HH:mm:ss') + ', A8, BR, ' + data.toString('utf8');
+                    console.log(toLog);
+                    logger.write(toLog)
                 });
 
             }, 2000);
